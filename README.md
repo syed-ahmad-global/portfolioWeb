@@ -3,7 +3,7 @@
 > Portfolio web is fully responsive website.
 > Main theme of this website is to portfolio of mine.
 >
-> Live demo [_here_](https://Uranus1.netlify.app/). 
+> Live demo [_here_](https://portfolio-home1.netlify.app/). 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
