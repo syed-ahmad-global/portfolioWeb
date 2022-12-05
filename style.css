@@ -775,12 +775,3 @@ footer {
     padding-block: 47px 92px;
   }
 }
-
-@media (max-width: 37.5em) {
-  .hero__image{
-    margin-top: 5em;
-    /* border: 2px solid red; */
-    width: 19em;
-    display: block;
-  }
-}
