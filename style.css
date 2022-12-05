@@ -189,7 +189,7 @@ svg {
 .header__social:hover > svg > path {
   fill: var(--accent);
 }
-
+/* 600px */
 @media (min-width: 37.5em) {
   .header {
     margin-block-start: 30px;
@@ -208,7 +208,7 @@ svg {
     margin-inline-end: auto;
   }
 }
-
+/* 1000 */
 @media (min-width: 62.5em) {
   .header {
     margin-block-start: 40px;
@@ -281,6 +281,7 @@ h1 > span {
   margin-block-end: 24px;
 }
 
+/* 600px */
 @media (min-width: 37.5em) {
   .hero {
     position: relative;
@@ -350,6 +351,7 @@ h1 > span {
   }
 }
 
+/* 1000 */
 @media (min-width: 62.5em) {
   .hero {
     margin-block-start: 0px;
@@ -437,6 +439,7 @@ h1 > span {
   translate: 0 50%;
 }
 
+/* 600px */
 @media (min-width: 37.5em) {
   .skills__wrapper {
     grid-template-columns: repeat(2, 1fr);
@@ -454,6 +457,7 @@ h1 > span {
   }
 }
 
+/* 1000 */
 @media (min-width: 62.5em) {
   .skills__wrapper {
     grid-template-columns: repeat(3, 1fr);
@@ -527,6 +531,7 @@ h1 > span {
   gap: 20px;
 }
 
+/* 600px */
 @media (min-width: 37.5em) {
   .projects__grid {
     gap: 60px 24px;
@@ -569,6 +574,7 @@ h1 > span {
   }
 }
 
+/* 1000px */
 @media (min-width: 62.5em) {
   .projects__grid {
     gap: 70px 30px;
@@ -716,6 +722,7 @@ h1 > span {
   translate: -75%;
 }
 
+/* 600px */
 @media (min-width: 37.5em) {
   .contact__rings {
     bottom: 47px;
@@ -723,6 +730,7 @@ h1 > span {
   }
 }
 
+/* 1000px */
 @media (min-width: 62.5em) {
   .contact__wrapper {
     display: grid;
@@ -754,14 +762,25 @@ footer {
   padding-block: 40px 60px;
 }
 
+/* 600px */
 @media (min-width: 37.5em) {
   footer {
     padding-block: 30px 40px;
   }
 }
 
+/* 1000px */
 @media (min-width: 62.5em) {
   footer {
     padding-block: 47px 92px;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .hero__image{
+    margin-top: 5em;
+    /* border: 2px solid red; */
+    width: 19em;
+    display: block;
   }
 }
