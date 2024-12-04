@@ -40,7 +40,7 @@ body,
 input,
 textarea,
 button {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 body {
@@ -180,6 +180,36 @@ svg {
   color: var(--text1);
   text-decoration: none;
   flex: 1 0 100%;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: var(--bg-body2);
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+/* Tooltip styling */
+.tooltip {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 12px;
+  transition: opacity 0.3s;
+  top: 30px; /* Adjust depending on the layout */
+  right: 0;
+}
+
+.header__social:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
 }
 
 .header__social > svg > path {
@@ -593,7 +623,7 @@ h1 > span {
   }
 
   .projects__picture::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
@@ -777,7 +807,7 @@ footer {
 }
 
 @media (max-width: 37.5em) {
-  .hero__image{
+  .hero__image {
     margin-top: 5em;
     /* border: 2px solid red; */
     width: 19em;
